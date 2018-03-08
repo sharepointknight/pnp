@@ -47,6 +47,7 @@ const config = {
         "sp-addinhelpers",
         "config-store",
         "pnpjs",
+        "project",
     ],
 
     assets: [

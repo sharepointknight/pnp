@@ -48,6 +48,10 @@ const config = {
         },
         "config-store",
         "pnpjs",
+        {
+            name: "project",
+            buildChain: defaultBuildPipeline.slice(0).concat([tasks.replaceSPHttpVersion]),
+        },
     ],
 
     // relative to the package folder

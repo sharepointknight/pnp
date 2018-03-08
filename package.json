@@ -3,7 +3,10 @@
   "private": true,
   "version": "1.0.0-beta.10",
   "description": "A JavaScript library for SharePoint development.",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-footer": "^1.0.5",
+    "gulp-header": "^1.8.9"
+  },
   "devDependencies": {
     "@microsoft/microsoft-graph-types": "1.1.0",
     "@types/chai": "4.0.10",
